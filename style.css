@@ -29,7 +29,16 @@
 .thin{
     font-weight: 300;
 }
-
+p {
+    text-align: justify;
+}
+p,a {
+    color:#ffffff;
+}
+a.no-highlight {
+    color: #ff0000;
+    text-decoration: none;
+}
 .normal{
     font-weight: 400;
 }
@@ -42,6 +51,27 @@
  .font-bold {
      font-weight: bold;
  }
+.text-sm{
+    font-size: 14px;
+}
+.text-xs{
+    font-size: 12px;
+}
+.text-normal{
+    font-size: 16px;
+}
+.text-lg{
+    font-size: 18px;
+}
+.text-xl{
+    font-size: 20px;
+}
+.text-2xl{
+    font-size: 22px;
+}
+.text-3xl{
+    font-size: 24px;
+}
 
  #free-wifi {
      border-color: blue;
