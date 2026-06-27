@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .page-container{
+            background-color: brown; 
+            height: 40px; 
+        }
+
+        .bg-purple{
+            background-color: purple;
+            height: 30px;
+            margin-top: 0.7rem;
+        }
+
+        .block{
+            display: block;
+            width: 100%;
+        }
+
+        .inline{
+            display: inline;
+        }
+
+        img{
+            height: 5rem;
+            width: 5rem;
+        }
+
+        .inline-block{
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="Logo.JPEG">
+        <img src="Logo.JPEG">
+        <div class="page-container bg-purple inline inline-block" style="width: 500px;">
+            Box One
+        </div>
+        <div class="page-container bg-purple inline">
+            Box Two
+        </div>
+        <div class="page-container bg-purple inline">
+            Box Three
+        </div>
+        <p class="bg-purple">Hello World!</p> <br><br>
+        <span class="bg-purple">Hello Nigeria</span>
+        <span class="bg-purple">Hello Algeria</span>
+        <button class="bg-purple block">Button one</button>
+        <input placeholder="Enter your email" type="email" class="bg-purple block">
+        <input placeholder="Enter your name" type="text" class="bg-purple block">
+    </div>
+</body>
+</html>
